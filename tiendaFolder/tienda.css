@@ -1,0 +1,108 @@
+body {
+    background-image: url("/image/tiendaBackground.jpg");
+    background-color: #030206;
+    background-size: 2500px 1500px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-section2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-section3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-section4 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* .container {
+/*     display: inline-block;
+    margin: 20px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 40px 2fr;
+    grid-template-rows: 100px 200px 100px;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide el espacio en dos columnas iguales */
+    grid-gap: 10px; /* Espacio entre los contenedores */
+  }
+  
+  /* .image, .title, .botones {
+    height: 200px; /* O cualquier otro valor según tus necesidades 
+  } */
+
+.image img {
+    width: 150px; 
+    height: auto;
+}
+
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(205, 40, 141);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D80286;
+}
+
+.title1 {
+    font-size: 36px;
+    color: aliceblue;
+    margin-right: 5000px;
+}
+
+footer {
+    font-size: 15px;
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 50px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+i {
+    margin-right: 0px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
