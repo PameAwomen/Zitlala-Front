@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuego</title>
+    <link href="/tiendaFolder/tienda.css" rel="stylesheet">
+</head>
+<body>
+
+
+<section class="main-section1">
+        <div class="title">
+            <h1>Tienda</h1>
+        </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="/image/tonali(sol).png" alt="">
+            </div>
+            <div class="title1">
+                <h1>Tonali</h1>
+            </div>
+            <div class="botones">
+                <button class="transaccionTonali">Tonali</button>
+            </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="/image/metstli(luna).png" alt="">
+            </div>
+            <div class="title">
+                <h1>Metstli</h1>
+            </div>
+            <div class="botones">
+                <button class="transaccionMetstli">Metstli</button>
+            </div>
+</section>
+
+<section class="main-section2">
+        <div class="container">
+            <div class="image">
+                <img src="/image/colaDragon.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Cola de dragón</h1>
+            </div>
+            <div class="botones">
+                <button class="itemColaDragon">Cola de dragón</button>
+            </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="/image/colmillosVampiro.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Colmillos de vampiro</h1>
+            </div>
+            <div class="botones">
+                <button class="itemColmillosVampiro">Colmillos de vampiro</button>
+            </div>
+</section>
+
+<section class="main-section3">
+        <div class="container">
+            <div class="image">
+                <img src="/image/orejasElfo.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Orejas de elfo</h1>
+            </div>
+            <div class="botones">
+                <button class="itemOrejasElfo">Orejas de elfo</button>
+            </div>
+
+        <div class="container">
+            <div class="image">
+                <img src="/image/cuernoUnicornio.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Cuerno de unicornio</h1>
+            </div>
+            <div class="botones">
+                <button class="itemCuernoUnicornio">Cuerno de unicornio</button>
+            </div>
+</section>
+
+<section class="main-section4">
+        <div class="container">
+            <div class="image">
+                <img src="/image/AntenasAlien.png" alt="">
+            </div>
+            <div class="title">
+                <h1>Antena de insecto</h1>
+            </div>
+            <div class="botones">
+                <button class="itemAntenaInsecto">Antena de insecto</button>
+            </div>
+
+</section>
+            
+
+<footer>
+    <h6>Imagen de Vaynakh en Freepik</h6>
+</footer>
+
+
+<script>
+   document.addEventListener("DOMContentLoaded", function() {
+    // Obtener el elemento estático "padre" más cercano a los botones
+    const mainSection = document.querySelector('.main-section');
+
+    // Añadir event listener al elemento estático "padre"
+    mainSection.addEventListener('click', (event) => {
+        // Comprobar si el elemento clickeado es un botón
+        if (event.target.tagName === 'BUTTON') {
+            // Obtener el texto del elemento "hermano" anterior, el cual contiene el título
+            const itemName = event.target.parentElement.previousElementSibling.querySelector('h1').innerText;
+            alert(`Has comprado ${itemName}`);
+        }
+    });
+});
+</script>
+   
+
+</body>
+</html>
