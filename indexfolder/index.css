@@ -3,17 +3,9 @@ body {
             background-color: #250e8d;
             background-size: cover;
             background-repeat: no-repeat;
-            margin: 0;
-            height: 0; /* Ajusta la altura según tus necesidades */
             overflow: hidden;
             
         }
-
-div { 
-    margin-left: 30%;
-    margin-top: 100px;
-    
-}
 
 
 /* animacion de las estrellas */
@@ -160,57 +152,76 @@ span:nth-child(10){
 
 /* Aqui termina la animacion de las estrellas */
 
+
+
+.botones { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            margin: 0;
+            /* espacio entre los botones se llama gap */
+            gap: 22px;
+}
+
+
 button {
     color: #000000;
     background-color: rgb(205, 40, 141);
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 0px;
-    padding: 19px 36px; 
-    display: inline-block; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 19px 30px; 
     font-family: "Lucida Console", Monaco, monospace;
-    font-size: 15px;
-    letter-spacing: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #D80286;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
-    align-items: center;
 }
 
 /* la sombra de los botones hacia la izquierda por eso 400px */
-.opci:hover {
-    box-shadow: inset 400px 0 0 0 #15a8a1;
-
-}
 
 .juega:hover {
+    box-shadow: inset 300px 0 0 0 #2291b0;
+    
+}
+
+.opci:hover {
     box-shadow: inset 400px 0 0 0 #2291b0;
+    
+}
+
+.tiend:hover {
+    box-shadow: inset 400px 0 0 0 #2291b0;
+    
 }
 
 
-h1 {
-    font-size: 70px;
-    color: aliceblue;
-    margin-left: 200px;
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+img {
+    margin-top: 90px;
+    width: 500px;
+    margin-left: 10px;
 }
 
 a {
-    display: flex;
-    align-items: center; /* Alinea verticalmente el ícono y el texto */
-    color: antiquewhite;
-}
-i {
-    margin-right: 0px; /* Espacio entre el ícono y el texto */
+    text-decoration: none;
+    color: #000000;
+   
 }
 
-footer {
+
+.piedepag {
     font-size: 15px;
-    color: antiquewhite;
-    margin-left: 450px;
-    margin-top: 250px;
+    color: rgb(35, 131, 228);
+    margin-left: 600px;
+    margin-top: 600px;
 }
 
-.botones {
-    margin-top: 200px;
-}
