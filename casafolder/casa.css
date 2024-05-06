@@ -1,7 +1,14 @@
 body {
-            background-image: url("/2632717_8733.jpg");
+            background-image: url("/image/2632717_8733.jpg");
             background-size: cover;
             background-repeat: no-repeat;
             margin: 100vh;
             height: 90vh; /* Ajusta la altura según tus necesidades */
         }
+
+
+h1 {
+    color: rgb(165, 38, 38);
+    font-size: 20px;
+
+}
