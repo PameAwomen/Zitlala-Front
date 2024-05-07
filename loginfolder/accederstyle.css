@@ -75,11 +75,12 @@ label {
     margin: 30px auto;
 }
 .main-buttons div{
-    display: block;
+
     width: 100%;
     text-align: center;
-    
+    display: inline-block;
 }
+
 
 .main-buttons button{
     

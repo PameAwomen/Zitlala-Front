@@ -13,7 +13,7 @@ body{
 
 .central-container {
     width: 180vh; 
-    height: 100vh;
+    height: 70vh;
     margin: 0 auto; 
     background-color: #94a498b0; 
     border-radius: 45px; 
@@ -43,7 +43,7 @@ h1{
 }
 
 .character-button {
-    margin: 15px;  /*Espacio alrededor de cada botón */
+    margin: 5px;  /*Espacio alrededor de cada botón */
     border-radius: 8px; 
     
 }
@@ -64,7 +64,7 @@ h1{
 }
 
 img {
-    width: 30vh; 
+    width: 29vh; 
     height: auto; 
     background-color: transparent;
 }
