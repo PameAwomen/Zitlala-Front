@@ -13,7 +13,7 @@ body{
 
 .central-container {
     width: 180vh; 
-    height: 70vh;
+    height: 100vh;
     margin: 0 auto; 
     background-color: #94a498b0; 
     border-radius: 45px; 
@@ -29,8 +29,8 @@ h1{
         -3px  3px 0 #345a6b, 
         3px  3px 0 #345a6b; 
     font-family: "Raleway", sans-serif;
-    font-size: 190px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 700;
     font-style: normal;
 }
 
